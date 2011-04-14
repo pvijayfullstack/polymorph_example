@@ -1,0 +1,4 @@
+<h1>All Mailing Lists</h1>
+<% @mailing_lists.each do |mailing_list| %>
+  <%= render mailing_list.sendable %>
+<% end %>
